@@ -1,0 +1,108 @@
+body{
+    background-color: #FFFFE3;
+    color: #253A52;
+    font-family: sans-serif, Verdana;
+    padding: 25px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+nav{
+    text-align: center;
+}
+
+.a-skills, .a-work, .a-contact, .a-studies{
+    padding: 5px;
+}
+
+a:hover{
+    color: rgba(43, 207, 10, 0.925)
+}
+
+a{
+    text-decoration:none;
+    color:  #253A52
+}
+.profile-image{
+    border: 3px solid #253A52;
+    border-radius: 50px;
+    width: 250px;
+
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.begin, .work-exp{
+    display:flex;
+
+}
+
+@media (max-width:1020px){
+    .begin, .work-exp{
+        flex-direction: column;
+    }
+    .skills-languages{
+        flex-direction: column;
+    }
+    .profile-image{
+        margin: auto;
+        margin-top:5px
+    }
+}
+
+.intro{
+    margin: 15px;
+
+}
+
+.linkedin, .github{
+    text-decoration: none;
+    color: #FFFFE3;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+
+.linkedin{
+    background:  #0A66C2
+}
+
+.github{
+    background: #171515
+}
+
+.skills-languages {
+display:flex;
+margin: 9px
+}
+
+.study, .skill, .languages{
+    padding: 9px;
+    margin-top: 7px;
+}
+
+.work-exp{
+    margin:5px;
+
+}
+
+article{
+    padding: 4px;
+    text-align: center;
+}
+
+@media (min-width: 1020px){
+article:not(.last-one){
+    border-right: 2px dotted #253A52 ;
+}
+.languages, .skill{
+    border-right: 2px dotted #253A52 ;
+}
+}
+
+.contact{
+    text-align: center;
+}
