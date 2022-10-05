@@ -79,8 +79,8 @@ display:flex;
 margin: 9px
 }
 
-.study, .skill, .languages{
-    padding: 9px;
+.tech-skill, .skill, .languages{
+    padding: 20px;
     margin-top: 7px;
 }
 
@@ -98,7 +98,7 @@ article{
 article:not(.last-one){
     border-right: 2px dotted #253A52 ;
 }
-.languages, .skill{
+ .skill, .tech-skill{
     border-right: 2px dotted #253A52 ;
 }
 }
