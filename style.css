@@ -58,7 +58,7 @@ h2{
 
 }
 
-.linkedin, .github{
+.linkedin, .github, .portfolio{
     text-decoration: none;
     color: #FFFFE3;
     border-radius: 30px;
@@ -72,6 +72,10 @@ h2{
 
 .github{
     background: #171515
+}
+
+.portfolio{
+    background-color: green;
 }
 
 .skills-languages {
