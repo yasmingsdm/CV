@@ -87,7 +87,7 @@ margin: 9px
 
 .tech-skill > ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
 }
 .work-exp{
     margin:5px;
