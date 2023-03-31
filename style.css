@@ -27,7 +27,8 @@ a{
 .profile-image{
     border: 3px solid #253A52;
     border-radius: 50px;
-    width: 250px;
+    max-height: 250px;
+    margin-top: 55px;
 
 }
 
@@ -58,7 +59,7 @@ h2{
 
 }
 
-.linkedin, .github, .portfolio{
+.linkedin, .github{
     text-decoration: none;
     color: #FFFFE3;
     border-radius: 30px;
@@ -74,10 +75,6 @@ h2{
     background: #171515
 }
 
-.portfolio{
-    background-color: green;
-}
-
 .skills-languages {
 display:flex;
 margin: 9px
@@ -88,6 +85,10 @@ margin: 9px
     margin-top: 7px;
 }
 
+.tech-skill > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .work-exp{
     margin:5px;
 
